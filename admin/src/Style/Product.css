@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .Product{
+background-color: whitesmoke;
+border-radius: 5px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+} */
+
+
+.product_scroll::-webkit-scrollbar
+{
+	width: 5px;
+}
+
+.product_scroll::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: lightgray
+}
+
+.product_list{
+    max-height: calc(100vh - 160px);
+    overflow: auto;
+}
+.product_list1{
+  max-height: calc(100vh - 90px);
+  overflow: auto;
+}
+
+@media (min-width: 670px)  and (max-width: 991px) {
+    .product_list{
+        max-height: calc(100vh - 309px);
+        overflow: auto;
+    }
+  }
+  
+@media (min-width: 560px)  and (max-width: 670px) {
+    .product_list{
+        max-height: calc(100vh - 245px);
+        overflow: auto;
+    }
+  }
+
+  @media (min-width: 450px)  and (max-width: 560px) {
+    .product_list{
+        max-height: calc(100vh - 230px);
+        overflow: auto;
+    }
+  }
+
+  @media (min-width: 350px)  and (max-width: 450px) {
+    .product_list{
+        max-height: calc(100vh - 210px);
+        overflow: auto;
+    }
+  }
+  @media (min-width: 200px)  and (max-width: 350px) {
+    .product_list{
+        max-height: calc(100vh - 180px);
+        overflow: auto;
+    }
+  }
+
+  @media (min-width:  1300px)  and (max-width: 1625px) {
+    .product_list1{
+        max-height: calc(100vh - 70px);
+        overflow: auto;
+    }
+  }
+  @media (min-width:  991px)  and (max-width: 1300px) {
+    .product_list1{
+        max-height: calc(100vh - 55px);
+        overflow: auto;
+    }
+  }
+  @media (min-width:  720px)  and (max-width: 991px) {
+    .product_list1{
+        max-height: calc(100vh - 40px);
+        overflow: auto;
+    }
+  }
+  @media (min-width:  565px)  and (max-width: 720px) {
+    .product_list1{
+        max-height: calc(100vh - 30px);
+        overflow: auto;
+    }
+  }
+  @media (min-width:  450px)  and (max-width: 565px) {
+    .product_list1{
+        max-height: calc(100vh - 10px);
+        overflow: auto;
+    }
+  }
+  @media (min-width:  200px)  and (max-width: 450px) {
+    .product_list1{
+        max-height: calc(100vh - 0px);
+        overflow: auto;
+    }
+  }
+  .admin_order_Address_details{
+    color: black;
+    font-weight: 700;
+  }
+
+  .admin_order_Address_details span{
+    font-weight: normal;
+  }
+
+  .product_image{
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    object-fit: contain;
+  }
+
+  
+   @media (min-width: 0px) and (max-width: 510px) { 
+    .product_image{
+        height: 280px;
+      }
+   }

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Category img{
+    max-width: 150px;
+    height: 150px;
+    border-radius: 100%;
+
+}
+.tag{
+    background: #e1ecf4;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 13px;
+    color: #39739d;
+    border: 1px solid #0d3eaa;
+
+}
+
+.new_arrival{
+    background-color: pink;
+    top: 16px;
+    border-radius: 5px;
+    right: 12px;
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.new_arrival div{
+   font-size: 10px;
+   font-weight: 700;
+
+}

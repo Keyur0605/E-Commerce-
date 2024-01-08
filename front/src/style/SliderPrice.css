@@ -1,0 +1,24 @@
+
+.slider_range {
+    height: 10px;
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.slider_range .thumb {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #007bff;
+    cursor: grab;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    top: -5px;
+}
+
+
+.slider_range .thumb.active {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    top: -5px;
+}

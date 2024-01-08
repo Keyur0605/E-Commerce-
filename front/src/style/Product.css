@@ -1,0 +1,156 @@
+
+.product_scroll::-webkit-scrollbar
+{
+	width: 5px;
+}
+
+.product_scroll::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: lightgray
+}
+
+
+
+.sub_scroll::-webkit-scrollbar
+{
+	width: 5px;
+	
+}
+
+.sub_scroll::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: lightgray
+}
+.product_name{
+    color: rgb(139, 139, 163);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 55px;
+
+}
+.product_price{
+	color: rgb(53, 53, 67);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    margin: 0px;
+    padding: 0px;
+}
+.filter_title{
+    color: black;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.icon{   
+     background-color: rgba(220,220,220,0.5);
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    padding: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.size_icon{  
+   background-color: white;
+   border-radius: 50%;
+   border: 1px solid gray;
+   width: 3rem;
+   height: 3rem;
+   padding: 0.6rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   font-weight: bold;
+}
+.icon_div span{
+    font-size: 12px;
+}
+.cart_btn{
+    border: none;
+    outline: none;
+    padding: 12px 36px;
+    background-color: rgb(143, 145, 145);
+    color: black;
+    font-weight: bold;
+}
+.wishlist_btn{
+    border: 1px solid black;
+    padding: 12px 36px;
+}
+.delivary p{
+    font-size: 14px;
+}
+.card_subCategory{
+    min-width: 170px;
+    max-height: auto;
+    justify-content: center;
+    display: flex;
+}
+.actives{
+    background-color: red;
+}
+.product_brand{
+    font-weight: bold;
+}
+
+.scroll-container {
+    width: 100%; 
+    white-space: nowrap; 
+    overflow-x: scroll; 
+    
+  }
+  
+  .scroll-content {
+    width: 600px; 
+    display: flex;
+  }
+  .product_image{
+    width: 100%;
+    max-width: 500px;
+    height: 500px;
+    object-fit: contain;
+  }
+
+  
+   @media (min-width: 0px) and (max-width: 510px) { 
+    .product_image{
+        height: 280px;
+      }
+   }
+
+   
+   .wishlist_div{
+    background-color: aliceblue;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 2;
+   }

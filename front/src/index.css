@@ -1,0 +1,22 @@
+body{
+  background-color: rgb(243,243,244) !important;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+font-family: 'Montserrat', sans-serif !important;
+}
+
+.pagination_arrow{
+  border: 2px solid #3b71ca;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.table_name{
+  width: 350px;
+  white-space: pre-wrap;
+}
+th,td{
+  white-space: nowrap;
+} 
+

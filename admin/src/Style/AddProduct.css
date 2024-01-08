@@ -1,0 +1,78 @@
+.btn_trash {
+    font-size:20px;
+     cursor:pointer;
+     
+}
+
+
+#image:hover {
+    filter: blur(4px);
+}
+
+.btn_trash:hover #image{
+    filter: blur(4px);
+}
+
+.image_hover:hover .delete_btn{
+    display: block !important;
+}
+.css-13cymwt-control{
+  padding: 10px;
+}
+.css-13cymwt-control:focus{
+    padding: 10px;
+}
+.css-t3ipsp-control{
+    padding: 10px ;
+}
+.fontSize{
+    font-size: 14px;
+}
+.fontSizeHeader{
+    font-size: 18px;
+    text-align: center;
+}
+.fontSizeHeaderAdd{
+  font-size: 15px;
+}
+.upload-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .upload-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .upload-button:hover {
+    background-color: #2980b9;
+  }
+
+  input[type="checkbox"]{
+    margin-right:10px ;
+  }
+  .product_scroll::-webkit-scrollbar
+{
+	width: 5px;
+}
+
+.product_scroll::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: lightgray
+}
+.addProduct{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}

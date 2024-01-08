@@ -1,0 +1,65 @@
+import {createSlice} from "@reduxjs/toolkit"
+import {AddLogo,GetLogo,DeleteLogo} from "../LogoAction"
+const LogoSlice=createSlice({
+    name:"LogoSlice",
+    initialState:{
+        addLogoLoading:false,
+        addLogoMsg:null,
+        addLogoError:null,
+        getLogoLoading:false,
+        getLogoMsg:null,
+        getLogoError:null,
+        DeleteLogoLoading:false,
+        DeleteLogoMsg:null,
+        DeleteLogoError:null
+    },
+    extraReducers:{
+        [AddLogo.pending]:(state)=>{
+            state.addLogoLoading=true
+            state.addLogoMsg=null
+            state.addLogoError=null
+        },
+        [AddLogo.fulfilled]:(state,{payload})=>{
+            state.addLogoLoading=false
+            state.addLogoMsg=payload
+            state.addLogoError=null
+        },
+        [AddLogo.rejected]:(state,{payload})=>{
+            state.addLogoLoading=false
+            state.addLogoMsg=null
+            state.addLogoError=payload
+        },
+        [GetLogo.pending]:(state)=>{
+            state.getLogoLoading=true
+            state.getLogoMsg=null
+            state.getLogoError=null
+        },
+        [GetLogo.fulfilled]:(state,{payload})=>{
+            state.getLogoLoading=false
+            state.getLogoMsg=payload
+            state.getLogoError=null
+        },
+        [GetLogo.rejected]:(state,{payload})=>{
+            state.getLogoLoading=false
+            state.getLogoMsg=null
+            state.getLogoError=payload
+        },
+        [DeleteLogo.pending]:(state)=>{
+            state.DeleteLogoLoading=true
+            state.DeleteLogoMsg=null
+            state.DeleteLogoError=null
+        },
+        [DeleteLogo.fulfilled]:(state,{payload})=>{
+            state.DeleteLogoLoading=false
+            state.DeleteLogoMsg=payload
+            state.DeleteLogoError=null
+        },
+        [DeleteLogo.rejected]:(state,{payload})=>{
+            state.DeleteLogoLoading=false
+            state.DeleteLogoMsg=null
+            state.DeleteLogoError=payload
+        },
+    }
+});
+
+export default LogoSlice.reducer;

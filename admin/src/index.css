@@ -1,0 +1,29 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+font-family: 'Montserrat', sans-serif !important;
+}
+
+
+.table_name{
+  width: 350px;
+  white-space: pre-wrap;
+}
+th,td{
+  white-space: nowrap;
+} 
+
+.table_discription{
+  width: 550px;
+  white-space: pre-wrap;
+}
+
+.pagination_arrow{
+  border: 2px solid #057f05;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.searchWrapper{
+  background-color: white;
+}

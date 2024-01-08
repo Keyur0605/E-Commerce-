@@ -1,0 +1,32 @@
+.fontSizeHeader{
+    font-size: 18px;
+}
+
+.Address_back{
+    max-height: 400px;
+    overflow: auto;
+    padding: 25px 40px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.Address_div{
+ background-color: aliceblue;
+ width: 40px;
+ height: 40px;
+ position: absolute;
+ top: 35px;
+ right: 35px;
+ margin: auto;
+ border-radius: 50%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+ z-index: 2;
+}
+
+.card_back{
+    
+    background-color: rgb(225, 224, 224) !important;
+}
